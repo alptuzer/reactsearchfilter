@@ -28,7 +28,7 @@ function  App()  {
           }).map((val)=>{
             return (
               <div className='data' key={val.id}>
-                <img src={pic}></img>
+                <img src='./eaf.jpg'></img>
                 <h3> {val.image}</h3>
                 <h3> {val.title}</h3>
                 <p>{val.Description}</p>
