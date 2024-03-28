@@ -1,7 +1,8 @@
 import React, { Component, useState } from 'react';
 import data from './datas/data001.json';
 import "./style/app.css"
-
+import pic from "./pic/leaf.jpg"
+ 
 
 function  App()  {
   
@@ -27,7 +28,7 @@ function  App()  {
           }).map((val)=>{
             return (
               <div className='data' key={val.id}>
-                <img src="./pic/leaf.jpg"></img>
+                <img src={pic}></img>
                 <h3> {val.image}</h3>
                 <h3> {val.title}</h3>
                 <p>{val.Description}</p>
